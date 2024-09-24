@@ -257,7 +257,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   displayMinHeight={"0"}
                   displayMinWidth={"0"}
                   displayWidth={"100%"}
-                  loading={"lazy"}
+                  loading={"eager"}
                   src={{
                     src: "/plasmic/nutreats/images/img0797Png.png",
                     fullWidth: 6711,
@@ -348,7 +348,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     displayMinHeight={"0"}
                     displayMinWidth={"0"}
                     displayWidth={"auto"}
-                    loading={"lazy"}
+                    loading={"eager"}
                     src={{
                       src: "/plasmic/nutreats/images/img8989Png.png",
                       fullWidth: 8120,
@@ -377,7 +377,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     displayMinHeight={"0"}
                     displayMinWidth={"0"}
                     displayWidth={"auto"}
-                    loading={"lazy"}
+                    loading={"eager"}
                     src={{
                       src: "/plasmic/nutreats/images/img0810Png.png",
                       fullWidth: 6711,
@@ -404,7 +404,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     displayMinHeight={"0"}
                     displayMinWidth={"0"}
                     displayWidth={"auto"}
-                    loading={"lazy"}
+                    loading={"eager"}
                     src={{
                       src: "/plasmic/nutreats/images/img8715Jpg.jpg",
                       fullWidth: 6108,
@@ -468,7 +468,7 @@ function PlasmicHomepage__RenderFunc(props: {
               displayMinHeight={"0"}
               displayMinWidth={"0"}
               displayWidth={"auto"}
-              loading={"lazy"}
+              loading={"eager"}
               src={{
                 src: "/plasmic/nutreats/images/img0513Png.png",
                 fullWidth: 6711,
@@ -540,7 +540,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
                 displayWidth={"100%"}
-                loading={"lazy"}
+                loading={"eager"}
                 src={{
                   src: "/plasmic/nutreats/images/postNuevosJerkys02Png.png",
                   fullWidth: 4500,
@@ -589,7 +589,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
                 displayWidth={"100%"}
-                loading={"lazy"}
+                loading={"eager"}
                 src={{
                   src: "/plasmic/nutreats/images/mesaDeTrabajo8Png2.png",
                   fullWidth: 1080,
@@ -636,7 +636,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
                 displayWidth={"100%"}
-                loading={"lazy"}
+                loading={"eager"}
                 src={{
                   src: "/plasmic/nutreats/images/boxPng3.png",
                   fullWidth: 995,
@@ -707,7 +707,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
                 displayWidth={"100%"}
-                loading={"lazy"}
+                loading={"eager"}
                 src={{
                   src: "/plasmic/nutreats/images/patitiasMixPng2.png",
                   fullWidth: 1080,
@@ -754,7 +754,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
                 displayWidth={"100%"}
-                loading={"lazy"}
+                loading={"eager"}
                 src={{
                   src: "/plasmic/nutreats/images/orejasPng.png",
                   fullWidth: 1080,
@@ -801,7 +801,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
                 displayWidth={"100%"}
-                loading={"lazy"}
+                loading={"eager"}
                 src={{
                   src: "/plasmic/nutreats/images/mondongoPng.png",
                   fullWidth: 1080,
@@ -889,7 +889,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
                 displayWidth={"100%"}
-                loading={"lazy"}
+                loading={"eager"}
                 src={{
                   src: "/plasmic/nutreats/images/patitiasMixPng2.png",
                   fullWidth: 1080,
@@ -938,7 +938,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
                 displayWidth={"100%"}
-                loading={"lazy"}
+                loading={"eager"}
                 src={{
                   src: "/plasmic/nutreats/images/img0719Png.png",
                   fullWidth: 5295,
@@ -985,7 +985,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
                 displayWidth={"100%"}
-                loading={"lazy"}
+                loading={"eager"}
                 src={{
                   src: "/plasmic/nutreats/images/img07411Png.png",
                   fullWidth: 3653,
@@ -1032,7 +1032,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
                 displayWidth={"100%"}
-                loading={"lazy"}
+                loading={"eager"}
                 src={{
                   src: "/plasmic/nutreats/images/img0734Png.png",
                   fullWidth: 4999,
