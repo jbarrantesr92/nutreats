@@ -251,12 +251,20 @@ function PlasmicHomepage__RenderFunc(props: {
                 <PlasmicImg__
                   alt={""}
                   className={classNames(sty.img__eHVvU)}
-                  displayHeight={"auto"}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "100%"
+                      : "auto"
+                  }
                   displayMaxHeight={"none"}
                   displayMaxWidth={"none"}
                   displayMinHeight={"0"}
                   displayMinWidth={"0"}
-                  displayWidth={"100%"}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "100%"
+                      : "100%"
+                  }
                   loading={"eager"}
                   src={{
                     src: "/plasmic/nutreats/images/img0797Png.png",
@@ -310,7 +318,29 @@ function PlasmicHomepage__RenderFunc(props: {
               )}
               speed={5}
             >
-              <div className={classNames(projectcss.all, sty.freeBox__sT3Q4)}>
+              <Stack__
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__sT3Q4)}
+              >
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__yleU)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"150px"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/nutreats/images/asset144XPng.png",
+                    fullWidth: 13955,
+                    fullHeight: 11947,
+                    aspectRatio: undefined
+                  }}
+                />
+
                 <div
                   className={classNames(
                     projectcss.all,
@@ -322,7 +352,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     "En Nutreats garantizamos la mejor calidad en la materia prima, siendo carne fresca premium de consumo humano."
                   }
                 </div>
-              </div>
+              </Stack__>
             </ParallaxWrapper>
             <Stack__
               as={"div"}
