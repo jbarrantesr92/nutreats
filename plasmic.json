@@ -1,0 +1,2095 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "84wxoth5npGrp6RRXPL88z",
+      "projectApiToken": "hOzXksPB8gkTrKnfJeV9VDS8m8dnIXQn1xxDQZ5MHxv9orQY6JNgwmk6aDMZPLkocV2KtD9gNJXv5JwIbbzIQ",
+      "projectName": "react-scroll-parallax-global",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_scroll_parallax_global/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/react_scroll_parallax_global/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "bozP4lLlAZ",
+          "name": "ParallaxWrapper",
+          "displayName": "hostless-scroll-parallax",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        },
+        {
+          "id": "L6MfauX2Cw",
+          "name": "ParallaxProviderWrapper",
+          "displayName": "global-parallax-provider",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "r3ASNrnyvLLLAtDvzUioQ",
+      "projectApiToken": "eSFGpQaYCtO9sRbPuQ2Ll9dmLOg8I4oKhx6e1PuCrsfmUIVbFbSXcy32UrPTwF9zX2HVXA0xaIKJNhCMHvA",
+      "projectName": "react-slick",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_slick/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "HOQUyOpClJ",
+          "name": "SliderWrapper",
+          "displayName": "hostless-slider",
+          "componentImportPath": "@plasmicpkgs/react-slick",
+          "helper": {
+            "name": "sliderHelpers",
+            "importPath": "@plasmicpkgs/react-slick"
+          }
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "8PtdGodUbexNYgkuyBUcWu",
+      "projectApiToken": "34o5R5KswluuZ4sD83F88oQrcLWsNNeUpCptQ8Okf4hYqgjnHnX2idGAlhtB7WWQQelNAInf5XFazR1cGw",
+      "projectName": "plasmic-embed-css",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_embed_css/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/plasmic_embed_css/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "qF0uJxFztB",
+          "name": "EmbedCss",
+          "displayName": "global-embed-css",
+          "componentImportPath": "@plasmicpkgs/plasmic-embed-css"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "5dGW8Awro3qq8Hh5MveXLP",
+      "projectApiToken": "wVHvHSTRyoO1MQddr5ypmW8AfwiMMy7h0Iaj4Q2YmYLLEo2A4L6pLn8Fydm8wQkTAJV9uAD5bJPo8bmGg",
+      "projectName": "lottie-react",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/lottie_react/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "BPNsJ2qis6",
+          "name": "LottieWrapper",
+          "displayName": "hostless-lottie-react",
+          "componentImportPath": "@plasmicpkgs/lottie-react"
+        },
+        {
+          "id": "vbTFHH9P-cuM",
+          "name": "AsyncLottieWrapper",
+          "displayName": "hostless-lottie-async-react",
+          "componentImportPath": "@plasmicpkgs/lottie-react"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "9UibdRruyX43DxnB8Q1QXF",
+      "projectApiToken": "ZNj972EbwCfknN1MAhdxLU3H7BjjWdUah5wjYLBnTSIVLgc0W6mbuSO49RMpnrdKocnSMgvQwlZ1GHOA3TuCg",
+      "projectName": "nanoid",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/nanoid/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "k6BnBuAUepzRX8Qs2WvkKs",
+      "projectApiToken": "1IHtphNKS6GGn3MNsez8NOlUZOc7diWRFES7RpYSY0TaI1LjT7i4vaz9QTjgncxXRUsqlyHtKBMa8Fe6Q",
+      "projectName": "axios",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/axios/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "a3pmZtcpA5asHkNtN3SGoF",
+      "projectApiToken": "1f2n20WEoxaPX0hs2uqNOsnXjfuNVyw4FB2zgrleQqQm7qWQPGlBFi63m7FgGuFbWu1b8lKhAm6fmfGf5CC8A",
+      "projectName": "uuid",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/uuid/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "sqPBLwEBBKHA2WDuGb17eV",
+      "projectApiToken": "iSkfEguGYRieW7aywQdeHJ2kHCgSYAzIucSfo1aoYAmuxbDKSEVLpn0OWlulrvi7DOO5qF0Mrt3ZjgPrFi2RA",
+      "projectName": "radix-ui",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/radix_ui/plasmic.module.css",
+      "components": [
+        {
+          "id": "5nirPCGmCnRD",
+          "name": "RadixUiButton",
+          "type": "managed",
+          "projectId": "sqPBLwEBBKHA2WDuGb17eV",
+          "renderModuleFilePath": "plasmic/radix_ui/PlasmicRadixUiButton.tsx",
+          "importSpec": {
+            "modulePath": "RadixUiButton.tsx"
+          },
+          "cssFilePath": "plasmic/radix_ui/PlasmicRadixUiButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "Wyt3GMMsLefj",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/radix_ui/icons/PlasmicIcon__CheckSvg.tsx"
+        },
+        {
+          "id": "MbDRsJU0e3bw",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/radix_ui/icons/PlasmicIcon__Icon.tsx"
+        }
+      ],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "-VVCIjLHaMgA",
+          "name": "Popover",
+          "displayName": "hostless-radix-popover",
+          "componentImportPath": "@plasmicpkgs/radix-ui"
+        },
+        {
+          "id": "z4QhkqHluocO",
+          "name": "Dialog",
+          "displayName": "hostless-radix-dialog",
+          "componentImportPath": "@plasmicpkgs/radix-ui"
+        },
+        {
+          "id": "logdOHtqNj-h",
+          "name": "DialogClose",
+          "displayName": "hostless-radix-dialog-close",
+          "componentImportPath": "@plasmicpkgs/radix-ui"
+        },
+        {
+          "id": "7LzIe7AaW4AB",
+          "name": "SheetContent",
+          "displayName": "hostless-radix-sheet-content",
+          "componentImportPath": "@plasmicpkgs/radix-ui"
+        },
+        {
+          "id": "iYIxAkansYwL",
+          "name": "DialogContent",
+          "displayName": "hostless-radix-dialog-content",
+          "componentImportPath": "@plasmicpkgs/radix-ui"
+        },
+        {
+          "id": "iNBmY1xCN2UL",
+          "name": "DialogTitle",
+          "displayName": "hostless-radix-dialog-title",
+          "componentImportPath": "@plasmicpkgs/radix-ui"
+        },
+        {
+          "id": "92yIzUPezjQ1",
+          "name": "DialogDescription",
+          "displayName": "hostless-radix-dialog-description",
+          "componentImportPath": "@plasmicpkgs/radix-ui"
+        },
+        {
+          "id": "wI1aJ4FfrKn1",
+          "name": "Tooltip",
+          "displayName": "hostless-radix-tooltip",
+          "componentImportPath": "@plasmicpkgs/radix-ui"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "szjgMQpPpxhmkjnaBvZQJG",
+      "projectApiToken": "xBIsrWHdWZ9kVgFEGUt29LOZPWfm0XidYqRHqPhQXsEjDHevjIbp44nEYMIZ46YOoxrN8anfXjreTkDtFjTA",
+      "projectName": "react-parallax-tilt",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_parallax_tilt/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "PfY466VIuq",
+          "name": "Tilt",
+          "displayName": "hostless-parallax-tilt",
+          "componentImportPath": "@plasmicpkgs/react-parallax-tilt"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "displayName": "hostless-reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "YUiM7yqBWAqsh8KSnrdj7",
+      "projectApiToken": "yLKpJOE8mD6HqoNCSWF3Em8ut0LBzL7qb3QPqNeOLPjQsSBSc12yhYovnSRSekzgt1xjjbugBGDjOMLGMK4w",
+      "projectName": "plasmic-query",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_query/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "ae7V86eNoXA",
+          "name": "DataFetcher",
+          "displayName": "hostless-plasmic-query-data-fetcher",
+          "componentImportPath": "@plasmicpkgs/plasmic-query"
+        },
+        {
+          "id": "0DrxdjD45dkx",
+          "name": "GraphqlFetcher",
+          "displayName": "hostless-plasmic-query-graphql-fetcher",
+          "componentImportPath": "@plasmicpkgs/plasmic-query"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "displayName": "hostless-iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "displayName": "hostless-html-video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "displayName": "hostless-embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "D4RbnlpRXg3",
+          "name": "DataProvider",
+          "displayName": "hostless-data-provider",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "zlBHsvkFlN",
+          "name": "ConditionGuard",
+          "displayName": "hostless-condition-guard",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "K-mWGqrHefEp",
+          "name": "SideEffect",
+          "displayName": "hostless-side-effect",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "SpkzmXJqg27p",
+          "name": "Timer",
+          "displayName": "hostless-timer",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "i3z63WaCLuRiSZRBwZC8d1",
+      "projectApiToken": "vFDcPRRkeIndudbVPzzJ6XYFTPaQbbUH7viVQRfVlT6w3AZurCwBghalKWIWYrMiawJ1uBiJ5nGZCgQGR1Tg",
+      "projectName": "commerce-shopify",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/commerce_shopify/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/commerce_shopify/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jKXfoEXfU9R",
+          "name": "CommerceProviderComponent",
+          "displayName": "plasmic-commerce-shopify-provider",
+          "componentImportPath": "@plasmicpkgs/commerce-shopify"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "xp1p7dmg329XVLHyuEUxD2",
+      "projectApiToken": "lKmNlwaV4Oj0MW88hxVZ5o5DRgZ8MIE6XICXwHEIus3QTO9JqH6779kr2KkJg7S816qbjShlBQ8PzLYAK4Q",
+      "projectName": "commerce",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/commerce/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "vU2jzVAnFP",
+          "name": "ProductCollection",
+          "displayName": "plasmic-commerce-product-collection",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "S1F4q0wN6b",
+          "name": "ProductTextField",
+          "displayName": "plasmic-commerce-product-text-field",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "_PaJxGc8gf",
+          "name": "ProductPriceComponent",
+          "displayName": "plasmic-commerce-product-price",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "qpULM0wwWW",
+          "name": "ProductMedia",
+          "displayName": "plasmic-commerce-product-media",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "NR7KYUJmEqx",
+          "name": "AddToCartButton",
+          "displayName": "plasmic-commerce-add-to-cart-button",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "CjfQQrwiHjD",
+          "name": "ProductQuantity",
+          "displayName": "plasmic-commerce-product-quantity",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "i3vHZr7erKX",
+          "name": "ProductVariantPicker",
+          "displayName": "plasmic-commerce-product-variant-picker",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "UGhhaf1AiUhF",
+          "name": "CartComponent",
+          "displayName": "plasmic-commerce-cart",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "1gYJf_XBZUAD",
+          "name": "ProductBox",
+          "displayName": "plasmic-commerce-product-box",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "t362fgW6eiCe",
+          "name": "ProductLink",
+          "displayName": "plasmic-commerce-product-link",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "ny07p45F84c_",
+          "name": "CategoryCollection",
+          "displayName": "plasmic-commerce-category-collection",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "hzqiq--xdG5T",
+          "name": "CategoryField",
+          "displayName": "plasmic-commerce-category-field",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "fA0CIfqZOwRH",
+          "name": "CategoryLink",
+          "displayName": "plasmic-commerce-category-link",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "5k_ZYl4EkcYi",
+          "name": "ProductSlider",
+          "displayName": "plasmic-commerce-product-slider",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "yOXBNIAJxzUq",
+          "name": "CategoryMedia",
+          "displayName": "plasmic-commerce-category-media",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "a5BakxYc5Db_",
+          "name": "ProductMediaCollection",
+          "displayName": "plasmic-commerce-product-media-collection",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "-7iA_UBq8qca",
+          "name": "CartProvider",
+          "displayName": "plasmic-commerce-cart-provider",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "displayName": "hostless-plasmic-navigation-bar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "9Vr5YWkf3w7jj6SsTcCEta",
+      "projectApiToken": "IvzN3wRogyeRjfeLl1hqzdjIjkVBvUQXxxVMFtbbpBdxfeSyKuR8fwKkECaSQERdZAIiGsh8aXppCCjBiCYyg",
+      "projectName": "loading-boundary",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/loading_boundary/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "u-J0rH0B-4",
+          "name": "LoadingBoundary",
+          "displayName": "hostless-loading-boundary",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "jkU633o1Cz7HrJdwdxhVHk",
+      "projectApiToken": "RNOKYUdvtFBrgxbf09RPjYgL9LzpnT4pIsOrtpsqlLDYBRxYynkAo8OY9YRWPdoaSnRAwOO2e5PWfuVNypw",
+      "projectName": "plasmic-rich-components",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_rich_components/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "FNIk-CnxQYXU",
+          "name": "RichLayout",
+          "displayName": "hostless-rich-layout",
+          "componentImportPath": "@plasmicpkgs/plasmic-rich-components/skinny/rich-layout"
+        },
+        {
+          "id": "k4RvFQUTZKCU",
+          "name": "RichTable",
+          "displayName": "hostless-rich-table",
+          "componentImportPath": "@plasmicpkgs/plasmic-rich-components/skinny/rich-table",
+          "helper": {
+            "name": "tableHelpers",
+            "importPath": "@plasmicpkgs/plasmic-rich-components/skinny/rich-table"
+          }
+        },
+        {
+          "id": "zV8WqibK3ZnC",
+          "name": "RichDetails",
+          "displayName": "hostless-rich-details",
+          "componentImportPath": "@plasmicpkgs/plasmic-rich-components/skinny/rich-details"
+        },
+        {
+          "id": "Hh2OL1EveIF",
+          "name": "RichList",
+          "displayName": "hostless-rich-list",
+          "componentImportPath": "@plasmicpkgs/plasmic-rich-components/skinny/rich-list"
+        },
+        {
+          "id": "UzObi2yVH_DH",
+          "name": "RichCalendar",
+          "displayName": "hostless-rich-calendar",
+          "componentImportPath": "@plasmicpkgs/plasmic-rich-components/skinny/rich-calendar",
+          "helper": {
+            "name": "calendarHelpers",
+            "importPath": "@plasmicpkgs/plasmic-rich-components/skinny/rich-calendar"
+          }
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "ohDidvG9XsCeFumugENU3J",
+      "projectApiToken": "YE6pw0s6HZvyAZENjWdhh22CZUvZbVXVeOr7IxU58m9rwk2ITG1RfJGcJjzF2uEC7DCqa4PDzPP1UXxfKuuQ",
+      "projectName": "antd5 hostless",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/antd_5_hostless/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/antd_5_hostless/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "OvH7ENd3m7ug",
+          "name": "AntdSelect",
+          "displayName": "plasmic-antd5-select",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSelect"
+        },
+        {
+          "id": "ACzfHW-ZLLiW",
+          "name": "AntdOption",
+          "displayName": "plasmic-antd5-option",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSelect"
+        },
+        {
+          "id": "UyLCOYx2BYc4",
+          "name": "AntdTable",
+          "displayName": "plasmic-antd5-table",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTable"
+        },
+        {
+          "id": "OFZLDfR2iHmj",
+          "name": "AntdColumn",
+          "displayName": "plasmic-antd5-table-column",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTable"
+        },
+        {
+          "id": "-EU4JlrV3jtw",
+          "name": "AntdColumnGroup",
+          "displayName": "plasmic-antd5-table-column-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTable"
+        },
+        {
+          "id": "DmrLLHGTjGTE",
+          "name": "AntdConfigProvider",
+          "displayName": "plasmic-antd5-config-provider",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerConfigProvider"
+        },
+        {
+          "id": "aFHKFWNvs7",
+          "name": "AntdCheckbox",
+          "displayName": "plasmic-antd5-checkbox",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerCheckbox"
+        },
+        {
+          "id": "2bM6vBkaxc",
+          "name": "AntdCheckboxGroup",
+          "displayName": "plasmic-antd5-checkbox-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerCheckbox"
+        },
+        {
+          "id": "-CXVV9tXtP",
+          "name": "AntdRadio",
+          "displayName": "plasmic-antd5-radio",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerRadio"
+        },
+        {
+          "id": "C3Ce7Sqgay",
+          "name": "AntdRadioButton",
+          "displayName": "plasmic-antd5-radio-button",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerRadio"
+        },
+        {
+          "id": "PZQhrvIGy1",
+          "name": "AntdRadioGroup",
+          "displayName": "plasmic-antd5-radio-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerRadio"
+        },
+        {
+          "id": "xx93QbkHH5i",
+          "name": "AntdModal",
+          "displayName": "plasmic-antd5-modal",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerModal"
+        },
+        {
+          "id": "bx9Xzvf5_eu",
+          "name": "AntdButton",
+          "displayName": "plasmic-antd5-button",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerButton"
+        },
+        {
+          "id": "fo-n3xHvdqt",
+          "name": "AntdMenu",
+          "displayName": "plasmic-antd5-menu",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerMenu"
+        },
+        {
+          "id": "QSmezaW-Gyu",
+          "name": "AntdMenuItem",
+          "displayName": "plasmic-antd5-menu-item",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerMenu"
+        },
+        {
+          "id": "6ySly9jzXsR",
+          "name": "AntdMenuItemGroup",
+          "displayName": "plasmic-antd5-menu-item-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerMenu"
+        },
+        {
+          "id": "pwJcAbVYC4M",
+          "name": "AntdMenuDivider",
+          "displayName": "plasmic-antd5-menu-divider",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerMenu"
+        },
+        {
+          "id": "nL-8oPEfDNL",
+          "name": "AntdSubMenu",
+          "displayName": "plasmic-antd5-submenu",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerMenu"
+        },
+        {
+          "id": "zIDEYq9RgLG",
+          "name": "AntdDropdown",
+          "displayName": "plasmic-antd5-dropdown",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerDropdown"
+        },
+        {
+          "id": "5sJiSDZuAW",
+          "name": "AntdOptionGroup",
+          "displayName": "plasmic-antd5-option-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSelect"
+        },
+        {
+          "id": "TgJFzUZpvQ",
+          "name": "FormWrapper",
+          "displayName": "plasmic-antd5-form",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/SchemaForm",
+          "helper": {
+            "name": "formHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/Form"
+          }
+        },
+        {
+          "id": "EYHwZh9ILg",
+          "name": "FormItemWrapper",
+          "displayName": "plasmic-antd5-form-item",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/FormItem"
+        },
+        {
+          "id": "zEXrWX9naj",
+          "name": "FormGroup",
+          "displayName": "plasmic-antd5-form-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/FormGroup"
+        },
+        {
+          "id": "M2mN_XzxO4",
+          "name": "FormListWrapper",
+          "displayName": "plasmic-antd5-form-list",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/FormList"
+        },
+        {
+          "id": "Vf5hntD2SZ5",
+          "name": "AntdInput",
+          "displayName": "plasmic-antd5-input",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerInput",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerInput"
+          }
+        },
+        {
+          "id": "RW4q13RFtAd",
+          "name": "AntdPassword",
+          "displayName": "plasmic-antd5-input-password",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerInput",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerInput"
+          }
+        },
+        {
+          "id": "pTzGlMptTxd",
+          "name": "AntdTextArea",
+          "displayName": "plasmic-antd5-textarea",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerInput",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerInput"
+          }
+        },
+        {
+          "id": "wxD5qjEe3pU",
+          "name": "AntdInputNumber",
+          "displayName": "plasmic-antd5-input-number",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerInput"
+        },
+        {
+          "id": "Zzbfw0tfhA",
+          "name": "UploadWrapper",
+          "displayName": "plasmic-antd5-upload",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerUpload"
+        },
+        {
+          "id": "-gkBqPikhk",
+          "name": "AntdSwitch",
+          "displayName": "plasmic-antd5-switch",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSwitch"
+        },
+        {
+          "id": "lKdkQL67fv",
+          "name": "AntdDatePicker",
+          "displayName": "plasmic-antd5-date-picker",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerDatePicker",
+          "helper": {
+            "name": "datePickerHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerDatePicker"
+          }
+        },
+        {
+          "id": "YcIbmJhMwB",
+          "name": "AntdColorPicker",
+          "displayName": "plasmic-antd5-color-picker",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerColorPicker"
+        },
+        {
+          "id": "Nb0bEUV6vm",
+          "name": "AntdDrawer",
+          "displayName": "plasmic-antd5-drawer",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerDrawer"
+        },
+        {
+          "id": "uIwOvA8Rbo",
+          "name": "AntdSteps",
+          "displayName": "plasmic-antd5-steps",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSteps"
+        },
+        {
+          "id": "rdsGm3tzUj",
+          "name": "AntdTooltip",
+          "displayName": "plasmic-antd5-tooltip",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTooltip"
+        },
+        {
+          "id": "nqcsn8n56U",
+          "name": "AntdAvatar",
+          "displayName": "plasmic-antd5-avatar",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerAvatar"
+        },
+        {
+          "id": "GuSPoNm_cBy",
+          "name": "AntdAvatarGroup",
+          "displayName": "plasmic-antd5-avatar-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerAvatar"
+        },
+        {
+          "id": "GDiBhO1FaQ",
+          "name": "AntdTree",
+          "displayName": "plasmic-antd5-tree",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTree",
+          "helper": {
+            "name": "treeHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerTree"
+          }
+        },
+        {
+          "id": "2Gn9Np0fVX",
+          "name": "AntdDirectoryTree",
+          "displayName": "plasmic-antd5-directory-tree",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTree",
+          "helper": {
+            "name": "treeHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerTree"
+          }
+        },
+        {
+          "id": "oPUhN99n4VXI",
+          "name": "AntdAccordion",
+          "displayName": "plasmic-antd5-collapse",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerCollapse",
+          "helper": {
+            "name": "accordionHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerCollapse"
+          }
+        },
+        {
+          "id": "4mmDdnlyWx2k",
+          "name": "AntdAccordionItem",
+          "displayName": "plasmic-antd5-collapse-item",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerCollapse"
+        },
+        {
+          "id": "4y7SmGJoYukv",
+          "name": "AntdSingleCollapse",
+          "displayName": "plasmic-antd5-single-collapse",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerCollapse",
+          "helper": {
+            "name": "singleCollapseHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerCollapse"
+          }
+        },
+        {
+          "id": "hkJfqlGnpchf",
+          "name": "AntdPopover",
+          "displayName": "plasmic-antd5-popover",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerPopover"
+        },
+        {
+          "id": "HV5Zx3YTIxFT",
+          "name": "AntdTabs",
+          "displayName": "plasmic-antd5-tabs",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTabs"
+        },
+        {
+          "id": "OSD--ykMTE95",
+          "name": "AntdTabItem",
+          "displayName": "plasmic-antd5-tab-item",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTabs"
+        },
+        {
+          "id": "S802VXcWSh0n",
+          "name": "AntdRate",
+          "displayName": "plasmic-antd5-rate",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerRate"
+        },
+        {
+          "id": "9HjEuAZYoz5P",
+          "name": "AntdDateRangePicker",
+          "displayName": "plasmic-antd5-date-range-picker",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerDateRangePicker",
+          "helper": {
+            "name": "dateRangePickerHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerDateRangePicker"
+          }
+        },
+        {
+          "id": "SeYQPnK2Etda",
+          "name": "AntdSingleSlider",
+          "displayName": "plasmic-antd5-slider",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSlider"
+        },
+        {
+          "id": "VvEzRJYSMImn",
+          "name": "AntdRangeSlider",
+          "displayName": "plasmic-antd5-range-slider",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSlider",
+          "helper": {
+            "name": "rangeSliderHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerSlider"
+          }
+        },
+        {
+          "id": "qUBr2ytCk1sn",
+          "name": "AntdSliderMark",
+          "displayName": "plasmic-antd5-slider-mark",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSlider"
+        },
+        {
+          "id": "2lfDhkB3l-hf",
+          "name": "AntdSegmentedOption",
+          "displayName": "plasmic-antd5-segmented-option",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSegmented"
+        },
+        {
+          "id": "hF7P_XBmSmah",
+          "name": "AntdSegmented",
+          "displayName": "plasmic-antd5-segmented",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSegmented"
+        },
+        {
+          "id": "YczuxmmTqf82",
+          "name": "AntdProgress",
+          "displayName": "plasmic-antd5-progress",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerProgress"
+        },
+        {
+          "id": "zxit27ZPux0z",
+          "name": "AntdPagination",
+          "displayName": "plasmic-antd5-pagination",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerPagination",
+          "helper": {
+            "name": "paginationHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerPagination"
+          }
+        },
+        {
+          "id": "Zjjf7sP4JdQI",
+          "name": "AntdBreadcrumb",
+          "displayName": "plasmic-antd5-breadcrumb",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
+        },
+        {
+          "id": "2ZOevuBPH-SX",
+          "name": "AntdBreadcrumbItem",
+          "displayName": "plasmic-antd5-breadcrumb-item",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+      "projectApiToken": "mtt2eNZ8ZBraUv8n7X7ILTEDugKXVF8mBHhEEQKe0Asr8MpMQn7liGqBCCWTzZ1022WZEgbUqU9lze1nZvBYrg",
+      "projectName": "Nutreats",
+      "version": "latest",
+      "cssFilePath": "plasmic/nutreats/plasmic.module.css",
+      "components": [
+        {
+          "id": "ArsQWkme7OfH",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "0np65JwHhSJY",
+          "name": "PageLayout",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicPageLayout.tsx",
+          "importSpec": {
+            "modulePath": "PageLayout.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicPageLayout.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "sEf96cT00Uo9",
+          "name": "Card",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicCard.tsx",
+          "importSpec": {
+            "modulePath": "Card.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "uIhZslhj_xpS",
+          "name": "NutreatsBlueButton",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicNutreatsBlueButton.tsx",
+          "importSpec": {
+            "modulePath": "NutreatsBlueButton.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicNutreatsBlueButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "2JkxNDYFVlY-",
+          "name": "NutreatsLayout",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicNutreatsLayout.tsx",
+          "importSpec": {
+            "modulePath": "NutreatsLayout.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicNutreatsLayout.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "H-ky2REMUn-l",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "5c1FA2bszZtE",
+          "name": "Switch",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicSwitch.tsx",
+          "importSpec": {
+            "modulePath": "Switch.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicSwitch.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "switch"
+        },
+        {
+          "id": "c8hSgA53PpEJ",
+          "name": "PaymentForm",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicPaymentForm.tsx",
+          "importSpec": {
+            "modulePath": "PaymentForm.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicPaymentForm.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "41RWXTcP0zvI",
+          "name": "Drawer",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicDrawer.tsx",
+          "importSpec": {
+            "modulePath": "Drawer.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicDrawer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pSub5CDlmeRh",
+          "name": "OrderSummary",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicOrderSummary.tsx",
+          "importSpec": {
+            "modulePath": "OrderSummary.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicOrderSummary.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "_uFGsWX7U0LV",
+          "name": "OrderSummaryDrawer",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicOrderSummaryDrawer.tsx",
+          "importSpec": {
+            "modulePath": "OrderSummaryDrawer.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicOrderSummaryDrawer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Hi6CyZuiUjlz",
+          "name": "AnimatedMenu",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicAnimatedMenu.tsx",
+          "importSpec": {
+            "modulePath": "AnimatedMenu.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicAnimatedMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "RQ7kTsr2DY2m",
+          "name": "Dialog",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicDialog.tsx",
+          "importSpec": {
+            "modulePath": "Dialog.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicDialog.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "sxRWy3PBJgc5",
+          "name": "AuthButton",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicAuthButton.tsx",
+          "importSpec": {
+            "modulePath": "AuthButton.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicAuthButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "C--_8KW04kMX",
+          "name": "AuthForm",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicAuthForm.tsx",
+          "importSpec": {
+            "modulePath": "AuthForm.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicAuthForm.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qRWhCZAizyPk",
+          "name": "EmailSender",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicEmailSender.tsx",
+          "importSpec": {
+            "modulePath": "EmailSender.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicEmailSender.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "LSOQ6y4UJW7P",
+          "name": "ParallaxWrapper",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicParallaxWrapper.tsx",
+          "importSpec": {
+            "modulePath": "ParallaxWrapper.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicParallaxWrapper.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Evt7duOGgV1K",
+          "name": "Navbar",
+          "type": "managed",
+          "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+          "renderModuleFilePath": "plasmic/nutreats/PlasmicNavbar.tsx",
+          "importSpec": {
+            "modulePath": "Navbar.tsx"
+          },
+          "cssFilePath": "plasmic/nutreats/PlasmicNavbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "dutHsrMauFCJ",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "sOKS41BDsIFj",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "yEf-dkuoJ7m9",
+          "name": "NutreatsLogoSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__NutreatsLogoSvg.tsx"
+        },
+        {
+          "id": "zudr8dXRaDPL",
+          "name": "QualitySvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__QualitySvg.tsx"
+        },
+        {
+          "id": "GgBDpFikmwi9",
+          "name": "MapaSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__MapaSvg.tsx"
+        },
+        {
+          "id": "pHFvLe1KDV_0",
+          "name": "DogApprovedSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__DogApprovedSvg.tsx"
+        },
+        {
+          "id": "G_BuaGkhbbHB",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__CheckSvg.tsx"
+        },
+        {
+          "id": "NdQ8js2OiFj1",
+          "name": "Icon38Icon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icon38.tsx"
+        },
+        {
+          "id": "JCBknh4aMxRg",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "Rlo7u9Pb7EUL",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "Df57qt2_4pcq",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icon5.tsx"
+        },
+        {
+          "id": "dRRNFgkFuZRS",
+          "name": "WhatsappSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__WhatsappSvg.tsx"
+        },
+        {
+          "id": "WGuOBlq-QDE_",
+          "name": "InstagramSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__InstagramSvg.tsx"
+        },
+        {
+          "id": "MOcm991ukpSz",
+          "name": "FacebookSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__FacebookSvg.tsx"
+        },
+        {
+          "id": "v-e2WTvX34JX",
+          "name": "TiktokSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__TiktokSvg.tsx"
+        },
+        {
+          "id": "JrfcF1vfmB1C",
+          "name": "Icon6Icon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icon6.tsx"
+        },
+        {
+          "id": "Iy2X0GZbXo7_",
+          "name": "Icon7Icon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icon7.tsx"
+        },
+        {
+          "id": "mT1xYfHJzoFX",
+          "name": "Icon8Icon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icon8.tsx"
+        },
+        {
+          "id": "TqPngYlk0I_L",
+          "name": "SearchSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__SearchSvg.tsx"
+        },
+        {
+          "id": "BIjJBOlZibHR",
+          "name": "Icon9Icon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icon9.tsx"
+        },
+        {
+          "id": "TTRyNyALMB5I",
+          "name": "Icon10Icon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icon10.tsx"
+        },
+        {
+          "id": "kvwtaIBL9jBa",
+          "name": "Icon11Icon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icon11.tsx"
+        },
+        {
+          "id": "VEb-4zE4IFAZ",
+          "name": "BarsSolidSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__BarsSolidSvg.tsx"
+        },
+        {
+          "id": "_y3AJzaNB2cE",
+          "name": "XSolidSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__XSolidSvg.tsx"
+        },
+        {
+          "id": "srp2Ggt4vm9L",
+          "name": "EnvelopeSolidSvg3Icon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__EnvelopeSolidSvg3.tsx"
+        },
+        {
+          "id": "mWUyBME7-UR2",
+          "name": "DotsThreeOutlineFillSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__DotsThreeOutlineFillSvg.tsx"
+        },
+        {
+          "id": "rbNonnhe4UdL",
+          "name": "PencilSimpleLineDuotoneSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__PencilSimpleLineDuotoneSvg.tsx"
+        },
+        {
+          "id": "mfHzm5qETOGt",
+          "name": "PlusCircleDuotoneSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__PlusCircleDuotoneSvg.tsx"
+        },
+        {
+          "id": "Szo-6JeKFaha",
+          "name": "TrashBinSharpSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__TrashBinSharpSvg.tsx"
+        },
+        {
+          "id": "02MvGwrmNzTf",
+          "name": "PlusLightSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__PlusLightSvg.tsx"
+        },
+        {
+          "id": "bzoNW9Qn7FLd",
+          "name": "MinusLightSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__MinusLightSvg.tsx"
+        },
+        {
+          "id": "FpS5fb58rHPB",
+          "name": "ShoppingBagDuotone1SvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__ShoppingBagDuotone1Svg.tsx"
+        },
+        {
+          "id": "xbYthWsyKZtO",
+          "name": "House1SvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__House1Svg.tsx"
+        },
+        {
+          "id": "rPlIhyEKiKyX",
+          "name": "StorefrontSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__StorefrontSvg.tsx"
+        },
+        {
+          "id": "uByOaSALkISv",
+          "name": "EnvelopeSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__EnvelopeSvg.tsx"
+        },
+        {
+          "id": "TTdphk2aWAOK",
+          "name": "Icons8WhatsappSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icons8WhatsappSvg.tsx"
+        },
+        {
+          "id": "57BKQaSU873k",
+          "name": "Icons8FacebookSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icons8FacebookSvg.tsx"
+        },
+        {
+          "id": "z8jP5ueQ1vXP",
+          "name": "Icons8InstagramSvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icons8InstagramSvg.tsx"
+        },
+        {
+          "id": "y04MRV0yjGVB",
+          "name": "Icons8Instagram1SvgIcon",
+          "moduleFilePath": "plasmic/nutreats/icons/PlasmicIcon__Icons8Instagram1Svg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "9MJZcZ0m5BgW",
+          "name": "Untitled design.gif",
+          "filePath": "../public/plasmic/nutreats/images/untitledDesignGif.gif"
+        },
+        {
+          "id": "SNKx_BNud9nF",
+          "name": "VARIOS.png",
+          "filePath": "../public/plasmic/nutreats/images/variosPng.png"
+        },
+        {
+          "id": "Sb0-iYpoXOGV",
+          "name": "Asset 14.svg",
+          "filePath": "../public/plasmic/nutreats/images/asset14Svg.svg"
+        },
+        {
+          "id": "YAaIMTxop-iv",
+          "name": "jerky-res.jpeg",
+          "filePath": "../public/plasmic/nutreats/images/jerkyResJpeg.jpg"
+        },
+        {
+          "id": "m5z54A5fDEdi",
+          "name": "jerky-treats.jpg",
+          "filePath": "../public/plasmic/nutreats/images/jerkyTreatsJpg.jpg"
+        },
+        {
+          "id": "-Ym1yT8hwvIH",
+          "name": "jerky-treats.png",
+          "filePath": "../public/plasmic/nutreats/images/jerkyTreatsPng.png"
+        },
+        {
+          "id": "afpdlePftsZ6",
+          "name": "jerky-cerdo.png",
+          "filePath": "../public/plasmic/nutreats/images/jerkyCerdoPng.png"
+        },
+        {
+          "id": "_JkqW6Jc0LFR",
+          "name": "higado 100.png",
+          "filePath": "../public/plasmic/nutreats/images/higado100Png.png"
+        },
+        {
+          "id": "c5BEWQMlxI5z",
+          "name": "higado.png",
+          "filePath": "../public/plasmic/nutreats/images/higadoPng.png"
+        },
+        {
+          "id": "sBF9cmzMgLo4",
+          "name": "pollo.png",
+          "filePath": "../public/plasmic/nutreats/images/polloPng.png"
+        },
+        {
+          "id": "KSAhXdjCWgvo",
+          "name": "oreja de cerdo.png",
+          "filePath": "../public/plasmic/nutreats/images/orejaDeCerdoPng.png"
+        },
+        {
+          "id": "43N6p6t6YThY",
+          "name": "zoomies.png",
+          "filePath": "../public/plasmic/nutreats/images/zoomiesPng.png"
+        },
+        {
+          "id": "X3g4OwxTIUh9",
+          "name": "Asset 1.svg",
+          "filePath": "../public/plasmic/nutreats/images/asset1Svg.svg"
+        },
+        {
+          "id": "7d5695Syy0ea",
+          "name": "Asset 1.svg 2",
+          "filePath": "../public/plasmic/nutreats/images/asset1Svg2.svg"
+        },
+        {
+          "id": "k1wRtHLQIjFm",
+          "name": "map.svg",
+          "filePath": "../public/plasmic/nutreats/images/mapSvg.svg"
+        },
+        {
+          "id": "kHkHuEPkI0HP",
+          "name": "store.svg",
+          "filePath": "../public/plasmic/nutreats/images/storeSvg.svg"
+        },
+        {
+          "id": "SfCt2-q1gEun",
+          "name": "logo-nutreats.svg",
+          "filePath": "../public/plasmic/nutreats/images/logoNutreatsSvg.svg"
+        },
+        {
+          "id": "TfqmBB6U4iGB",
+          "name": "image",
+          "filePath": "../public/plasmic/nutreats/images/image.svg"
+        },
+        {
+          "id": "9R-Figx8P_sQ",
+          "name": "Asset 1.svg 3",
+          "filePath": "../public/plasmic/nutreats/images/asset1Svg3.svg"
+        },
+        {
+          "id": "jj-wrfJANln_",
+          "name": "image 2",
+          "filePath": "../public/plasmic/nutreats/images/image2.jpg"
+        },
+        {
+          "id": "9uhuqp9Fir53",
+          "name": "image 3",
+          "filePath": "../public/plasmic/nutreats/images/image3.jpg"
+        },
+        {
+          "id": "r9cZ6ADVGFwv",
+          "name": "image 4",
+          "filePath": "../public/plasmic/nutreats/images/image4.jpg"
+        },
+        {
+          "id": "g3Qk84OIOX6C",
+          "name": "image 5",
+          "filePath": "../public/plasmic/nutreats/images/image5.jpg"
+        },
+        {
+          "id": "VY1oCptkG_Cg",
+          "name": "image 6",
+          "filePath": "../public/plasmic/nutreats/images/image6.jpg"
+        },
+        {
+          "id": "wmIR4FIXDzns",
+          "name": "image 7",
+          "filePath": "../public/plasmic/nutreats/images/image7.jpg"
+        },
+        {
+          "id": "llVMIa61mNUg",
+          "name": "image 8",
+          "filePath": "../public/plasmic/nutreats/images/image8.jpg"
+        },
+        {
+          "id": "UY-JqV_MRNqK",
+          "name": "image 9",
+          "filePath": "../public/plasmic/nutreats/images/image9.jpg"
+        },
+        {
+          "id": "gWn5z7hOeSoD",
+          "name": "image 10",
+          "filePath": "../public/plasmic/nutreats/images/image10.jpg"
+        },
+        {
+          "id": "dXDf4bAyg1ci",
+          "name": "image 11",
+          "filePath": "../public/plasmic/nutreats/images/image11.jpg"
+        },
+        {
+          "id": "_SpkY8x5v7VV",
+          "name": "Artboard 3.png",
+          "filePath": "../public/plasmic/nutreats/images/artboard3Png.png"
+        },
+        {
+          "id": "uk_KSSJMNAoU",
+          "name": "globe-solid.svg",
+          "filePath": "../public/plasmic/nutreats/images/globeSolidSvg.svg"
+        },
+        {
+          "id": "O3vBuwGbXH07",
+          "name": "IMG_2340.png",
+          "filePath": "../public/plasmic/nutreats/images/img2340Png.png"
+        },
+        {
+          "id": "6bpFPkjFkXst",
+          "name": "IMG_2337.png",
+          "filePath": "../public/plasmic/nutreats/images/img2337Png.png"
+        },
+        {
+          "id": "qwMcLx3LZf_M",
+          "name": "IMG_2350 2.png",
+          "filePath": "../public/plasmic/nutreats/images/img23502Png.png"
+        },
+        {
+          "id": "wadIlb_8MJAh",
+          "name": "application_13873107.svg",
+          "filePath": "../public/plasmic/nutreats/images/application13873107Svg.svg"
+        },
+        {
+          "id": "AMH9p4TbrRXT",
+          "name": "web-site_5391707.svg",
+          "filePath": "../public/plasmic/nutreats/images/webSite5391707Svg.svg"
+        },
+        {
+          "id": "-kUKZsRcSAac",
+          "name": "PagosTiempoRealSinpeMovil.gif",
+          "filePath": "../public/plasmic/nutreats/images/pagosTiempoRealSinpeMovilGif.gif"
+        },
+        {
+          "id": "oRNrj07TWXuH",
+          "name": "logo_web_retina.jpg",
+          "filePath": "../public/plasmic/nutreats/images/logoWebRetinaJpg.jpg"
+        },
+        {
+          "id": "hUKoNXSAXDOk",
+          "name": "bizpok.svg",
+          "filePath": "../public/plasmic/nutreats/images/bizpokSvg.svg"
+        },
+        {
+          "id": "O0EdZ3p-GZxD",
+          "name": "menu.gif",
+          "filePath": "../public/plasmic/nutreats/images/menuGif.gif"
+        },
+        {
+          "id": "JcGjz-QvpA_2",
+          "name": "menu.svg",
+          "filePath": "../public/plasmic/nutreats/images/menuSvg.svg"
+        },
+        {
+          "id": "-1zIAPv2flfZ",
+          "name": "menu_2976215.svg",
+          "filePath": "../public/plasmic/nutreats/images/menu2976215Svg.svg"
+        },
+        {
+          "id": "X0RM5akbz0lW",
+          "name": "close_1828778.svg",
+          "filePath": "../public/plasmic/nutreats/images/close1828778Svg.svg"
+        },
+        {
+          "id": "0YC9qJKllqYy",
+          "name": "Facebook_Logo_Primary.png",
+          "filePath": "../public/plasmic/nutreats/images/facebookLogoPrimaryPng.png"
+        },
+        {
+          "id": "NWLteFG4Ji3C",
+          "name": "Asset 1.svg 4",
+          "filePath": "../public/plasmic/nutreats/images/asset1Svg4.svg"
+        },
+        {
+          "id": "jN-yR4NTQjIv",
+          "name": "envelope-solid.svg 2",
+          "filePath": "../public/plasmic/nutreats/images/envelopeSolidSvg2.svg"
+        },
+        {
+          "id": "2k03Z5UGsupc",
+          "name": "horizontal-line-svgrepo-com.svg",
+          "filePath": "../public/plasmic/nutreats/images/horizontalLineSvgrepoComSvg.svg"
+        },
+        {
+          "id": "xU8l1vgRcXoZ",
+          "name": "Asset 1.svg 5",
+          "filePath": "../public/plasmic/nutreats/images/asset1Svg5.svg"
+        },
+        {
+          "id": "fH3vCQERCDho",
+          "name": "IMG_8715.jpg",
+          "filePath": "../public/plasmic/nutreats/images/img8715Jpg.jpg"
+        },
+        {
+          "id": "TElSk9GrzCT5",
+          "name": "IMG_8674.png",
+          "filePath": "../public/plasmic/nutreats/images/img8674Png.png"
+        },
+        {
+          "id": "rMrxrd8pgyjj",
+          "name": "IMG_8894.png",
+          "filePath": "../public/plasmic/nutreats/images/img8894Png.png"
+        },
+        {
+          "id": "XEALDw0JTFG5",
+          "name": "IMG_8894.png 2",
+          "filePath": "../public/plasmic/nutreats/images/img8894Png2.png"
+        },
+        {
+          "id": "6dZi4XC5BhTe",
+          "name": "IMG_8674.png 2",
+          "filePath": "../public/plasmic/nutreats/images/img8674Png2.png"
+        },
+        {
+          "id": "re3By_9QGMd4",
+          "name": "IMG_8836.png",
+          "filePath": "../public/plasmic/nutreats/images/img8836Png.png"
+        },
+        {
+          "id": "wTQilVCYkxSI",
+          "name": "IMG_8674 (1).png",
+          "filePath": "../public/plasmic/nutreats/images/img86741Png.png"
+        },
+        {
+          "id": "yTJb1OBJR7F7",
+          "name": "IMG_8894 (1).png",
+          "filePath": "../public/plasmic/nutreats/images/img88941Png.png"
+        },
+        {
+          "id": "p-YzHtziy2q-",
+          "name": "IMG_8836 (1).png",
+          "filePath": "../public/plasmic/nutreats/images/img88361Png.png"
+        },
+        {
+          "id": "5G1DQsVkeDW-",
+          "name": "IMG_8674.png 3",
+          "filePath": "../public/plasmic/nutreats/images/img8674Png3.png"
+        },
+        {
+          "id": "F0Z8V3LmeNJX",
+          "name": "IMG_8894.png 3",
+          "filePath": "../public/plasmic/nutreats/images/img8894Png3.png"
+        },
+        {
+          "id": "HZXnIR_7mqJm",
+          "name": "IMG_8836 (2).png",
+          "filePath": "../public/plasmic/nutreats/images/img88362Png.png"
+        },
+        {
+          "id": "nEqRk5fgiuAu",
+          "name": "IMG_8836.png 2",
+          "filePath": "../public/plasmic/nutreats/images/img8836Png2.png"
+        },
+        {
+          "id": "iMhrgL1PRIlo",
+          "name": "IMG_8989.png",
+          "filePath": "../public/plasmic/nutreats/images/img8989Png.png"
+        },
+        {
+          "id": "_nBhylf79M18",
+          "name": "Asset 1@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/asset14XPng.png"
+        },
+        {
+          "id": "TXYDJ8wAJBWI",
+          "name": "Asset 2@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/asset24XPng.png"
+        },
+        {
+          "id": "QFI1NtlvKl7H",
+          "name": "Asset 3@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/asset34XPng.png"
+        },
+        {
+          "id": "QOekufwzPGLQ",
+          "name": "tarro@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/tarro4XPng.png"
+        },
+        {
+          "id": "zc9Wl7_n1llj",
+          "name": "tarro@4x expanded.png",
+          "filePath": "../public/plasmic/nutreats/images/tarro4XExpandedPng.png"
+        },
+        {
+          "id": "wr2U_fnaR-F7",
+          "name": "Asset 3@4x extended.png",
+          "filePath": "../public/plasmic/nutreats/images/asset34XExtendedPng.png"
+        },
+        {
+          "id": "v60TZ_idf1tr",
+          "name": "Mila extended@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/milaExtended4XPng.png"
+        },
+        {
+          "id": "rZAf5pbHLE-d",
+          "name": "gaot extended@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/gaotExtended4XPng.png"
+        },
+        {
+          "id": "v-U6_aMXVZ2R",
+          "name": "all extended@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/allExtended4XPng.png"
+        },
+        {
+          "id": "WyNbJzBx-fXk",
+          "name": "all extended@4x.png 2",
+          "filePath": "../public/plasmic/nutreats/images/allExtended4XPng2.png"
+        },
+        {
+          "id": "j2mUrE_FN0Lu",
+          "name": "new all@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/newAll4XPng.png"
+        },
+        {
+          "id": "pEyJLqlcUIVJ",
+          "name": "IMG_6416.png",
+          "filePath": "../public/plasmic/nutreats/images/img6416Png.png"
+        },
+        {
+          "id": "T4QKNEMGNR1E",
+          "name": "carne de ress 100.png",
+          "filePath": "../public/plasmic/nutreats/images/carneDeRess100Png.png"
+        },
+        {
+          "id": "eUleDFbTEwqF",
+          "name": "cerdo 100.png",
+          "filePath": "../public/plasmic/nutreats/images/cerdo100Png.png"
+        },
+        {
+          "id": "4c9nuz6Oh4fb",
+          "name": "higado de res 100g.png",
+          "filePath": "../public/plasmic/nutreats/images/higadoDeRes100GPng.png"
+        },
+        {
+          "id": "Ac8H4L6ySf3v",
+          "name": "pollo 100 2.png",
+          "filePath": "../public/plasmic/nutreats/images/pollo1002Png.png"
+        },
+        {
+          "id": "4-HKb-GbhPB0",
+          "name": "oreja 200.png",
+          "filePath": "../public/plasmic/nutreats/images/oreja200Png.png"
+        },
+        {
+          "id": "6T_fNMj80TkU",
+          "name": "zommies gato 100.png",
+          "filePath": "../public/plasmic/nutreats/images/zommiesGato100Png.png"
+        },
+        {
+          "id": "mRGJVlXUQ69V",
+          "name": "IMG_8876.png",
+          "filePath": "../public/plasmic/nutreats/images/img8876Png.png"
+        },
+        {
+          "id": "GIUxBZQzUq-J",
+          "name": "res@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/res4XPng.png"
+        },
+        {
+          "id": "FpTkhFiXWOGy",
+          "name": "cerdo@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/cerdo4XPng.png"
+        },
+        {
+          "id": "Z1djKGS6Kap0",
+          "name": "higado@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/higado4XPng.png"
+        },
+        {
+          "id": "3syaS2uEqsU2",
+          "name": "pollo@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/pollo4XPng.png"
+        },
+        {
+          "id": "1ixEQmMNz4AA",
+          "name": "oreja tiras@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/orejaTiras4XPng.png"
+        },
+        {
+          "id": "0FNVb2L-ISFn",
+          "name": "zoomies@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/zoomies4XPng.png"
+        },
+        {
+          "id": "zUCTW52JVOQt",
+          "name": "IMG_8700.jpg",
+          "filePath": "../public/plasmic/nutreats/images/img8700Jpg.jpg"
+        },
+        {
+          "id": "J6THF4o9QlmR",
+          "name": "IMG_0463.png",
+          "filePath": "../public/plasmic/nutreats/images/img0463Png.png"
+        },
+        {
+          "id": "IpGi2w3Xk70v",
+          "name": "IMG_0341.png",
+          "filePath": "../public/plasmic/nutreats/images/img0341Png.png"
+        },
+        {
+          "id": "hKHmZw7fBmpy",
+          "name": "IMG_0797.png",
+          "filePath": "../public/plasmic/nutreats/images/img0797Png.png"
+        },
+        {
+          "id": "hc82-f9nfuHv",
+          "name": "IMG_0810.png",
+          "filePath": "../public/plasmic/nutreats/images/img0810Png.png"
+        },
+        {
+          "id": "X2kGRSTz7yJD",
+          "name": "IMG_0756.png",
+          "filePath": "../public/plasmic/nutreats/images/img0756Png.png"
+        },
+        {
+          "id": "1ewjmACb-zzG",
+          "name": "Asset 1.svg 6",
+          "filePath": "../public/plasmic/nutreats/images/asset1Svg6.svg"
+        },
+        {
+          "id": "53kDQ9k8sFbI",
+          "name": "Post_NuevosJerkys-02.png",
+          "filePath": "../public/plasmic/nutreats/images/postNuevosJerkys02Png.png"
+        },
+        {
+          "id": "SCNmRVIjgJ-N",
+          "name": "Mesa de trabajo 8.png",
+          "filePath": "../public/plasmic/nutreats/images/mesaDeTrabajo8Png.png"
+        },
+        {
+          "id": "lTVaz_yfU6Pz",
+          "name": "Mesa de trabajo 8.png 2",
+          "filePath": "../public/plasmic/nutreats/images/mesaDeTrabajo8Png2.png"
+        },
+        {
+          "id": "w3Vg6s5uCXDY",
+          "name": "box.png",
+          "filePath": "../public/plasmic/nutreats/images/boxPng.png"
+        },
+        {
+          "id": "QFRVSoSRVyUW",
+          "name": "box.png 2",
+          "filePath": "../public/plasmic/nutreats/images/boxPng2.png"
+        },
+        {
+          "id": "_kz5GiBlkgS9",
+          "name": "patitias mix.png",
+          "filePath": "../public/plasmic/nutreats/images/patitiasMixPng.png"
+        },
+        {
+          "id": "cNgOA3J9u2xG",
+          "name": "mondongo.png",
+          "filePath": "../public/plasmic/nutreats/images/mondongoPng.png"
+        },
+        {
+          "id": "foQvwtwUfjyC",
+          "name": "patitias mix.png 2",
+          "filePath": "../public/plasmic/nutreats/images/patitiasMixPng2.png"
+        },
+        {
+          "id": "ka7JK4RBAF8i",
+          "name": "orejas.png",
+          "filePath": "../public/plasmic/nutreats/images/orejasPng.png"
+        },
+        {
+          "id": "PYhTYlqlJxMS",
+          "name": "IMG_0719.png",
+          "filePath": "../public/plasmic/nutreats/images/img0719Png.png"
+        },
+        {
+          "id": "IX-d9PXy3QVE",
+          "name": "IMG_0741 (1).png",
+          "filePath": "../public/plasmic/nutreats/images/img07411Png.png"
+        },
+        {
+          "id": "SeP1Opit45ze",
+          "name": "IMG_0734.png",
+          "filePath": "../public/plasmic/nutreats/images/img0734Png.png"
+        },
+        {
+          "id": "T9Yl-iUCQzQv",
+          "name": "IMG_0513.png",
+          "filePath": "../public/plasmic/nutreats/images/img0513Png.png"
+        },
+        {
+          "id": "Tc8xbcBgIgii",
+          "name": "sellos@4x.png",
+          "filePath": "../public/plasmic/nutreats/images/sellos4XPng.png"
+        },
+        {
+          "id": "MlsHFcSjNfVB",
+          "name": "IMG_0774.png",
+          "filePath": "../public/plasmic/nutreats/images/img0774Png.png"
+        },
+        {
+          "id": "e-TNa4GZv-C2",
+          "name": "box.png 3",
+          "filePath": "../public/plasmic/nutreats/images/boxPng3.png"
+        },
+        {
+          "id": "ABy5-JsD7sDh",
+          "name": "Logo Nutreats.svg 2",
+          "filePath": "../public/plasmic/nutreats/images/logoNutreatsSvg2.svg"
+        },
+        {
+          "id": "xPWCex6D-cQr",
+          "name": "logo-zoomies.svg",
+          "filePath": "../public/plasmic/nutreats/images/logoZoomiesSvg.svg"
+        },
+        {
+          "id": "MkOZ8KImlFfE",
+          "name": "zommies logo.svg",
+          "filePath": "../public/plasmic/nutreats/images/zommiesLogoSvg.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/nutreats/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "MaXKZ6WniWT8",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "r0e1Ke4wqad8",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "zwwmRsht6Acu",
+        "name": "Screen",
+        "projectId": "h8C9fz9kVsxnVEjHjpK7So",
+        "contextFilePath": "plasmic/nutreats/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.331",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.331/dist/plasmic.schema.json"
+}

@@ -9,16 +9,39 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.5.1",
+    "@ant-design/pro-components": "^2.6.4",
+    "@plasmicapp/cli": "^0.1.331",
+    "@plasmicapp/react-web": "^0.2.352",
+    "@plasmicpkgs/antd5": "^0.0.252",
+    "@plasmicpkgs/commerce": "^0.0.205",
+    "@plasmicpkgs/commerce-shopify": "^0.0.212",
+    "@plasmicpkgs/lottie-react": "^0.0.197",
+    "@plasmicpkgs/plasmic-basic-components": "^0.0.230",
+    "@plasmicpkgs/plasmic-embed-css": "^0.1.192",
+    "@plasmicpkgs/plasmic-nav": "^0.0.177",
+    "@plasmicpkgs/plasmic-query": "^0.0.225",
+    "@plasmicpkgs/plasmic-rich-components": "^1.0.197",
+    "@plasmicpkgs/radix-ui": "^0.0.64",
+    "@plasmicpkgs/react-awesome-reveal": "^3.8.209",
+    "@plasmicpkgs/react-parallax-tilt": "^0.0.207",
+    "@plasmicpkgs/react-scroll-parallax": "^0.0.214",
+    "@plasmicpkgs/react-slick": "^0.0.228",
+    "axios": "^1.7.7",
+    "nanoid": "^5.0.7",
+    "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.13"
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.13"
+    "eslint-config-next": "14.2.13",
+    "typescript": "^5"
   }
 }

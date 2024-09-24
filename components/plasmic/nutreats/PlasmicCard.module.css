@@ -1,0 +1,72 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  background: none;
+  box-shadow: 0px 5px 10px 0px #00659d12;
+  border-radius: 8px;
+  border: 1px solid #e9edf1;
+}
+.header {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 0;
+  padding: 0px;
+}
+.headernoTitle {
+  display: none;
+}
+.freeBox {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  min-width: 0;
+}
+.slotTargetTitle {
+  font-weight: 700;
+}
+.body {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 0;
+  padding: 25px;
+}
+.bodynoTitle {
+  padding-top: 16px;
+}
+.text__mVmDy {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.text__eIjKb {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}

@@ -1,0 +1,84 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  justify-self: flex-start;
+  background: #6ea0d524;
+  min-width: 0;
+  border-radius: 50px;
+  padding: 5px 15px;
+}
+.freeBox__hgi5T {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  grid-column-gap: 50px;
+  padding: 8px;
+}
+.freeBox___3VOq {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  min-width: 0;
+  padding: 0px;
+}
+.svg__uSsHq {
+  object-fit: cover;
+  max-width: 100%;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.freeBox__kgUk {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  min-width: 0;
+  padding: 0px;
+}
+.svg__uh6V {
+  object-fit: cover;
+  max-width: 100%;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.freeBox__jgSq6 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  min-width: 0;
+  padding: 0px;
+}
+.svg__ckr {
+  object-fit: cover;
+  max-width: 100%;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
