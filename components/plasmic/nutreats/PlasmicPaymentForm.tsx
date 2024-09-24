@@ -227,14 +227,14 @@ function PlasmicPaymentForm__RenderFunc(props: {
         {...child$Props}
       >
         <FormItemWrapper
-          className={classNames("__wab_instance", sty.formField__nviQj)}
+          className={classNames("__wab_instance", sty.formField__dC7Zd)}
           label={"Name"}
           name={"name"}
         >
           <AntdInput className={classNames("__wab_instance", sty.input)} />
         </FormItemWrapper>
         <FormItemWrapper
-          className={classNames("__wab_instance", sty.formField__vWcBq)}
+          className={classNames("__wab_instance", sty.formField__zxPsP)}
           label={"Message"}
           name={"message"}
         >
