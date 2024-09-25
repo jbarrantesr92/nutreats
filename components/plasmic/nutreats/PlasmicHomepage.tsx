@@ -94,7 +94,6 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: Flex__<"div">;
-  reveal?: Flex__<typeof Reveal>;
   navbar?: Flex__<typeof Navbar>;
   puntosDeVenta?: Flex__<"div">;
   h1?: Flex__<"h1">;
@@ -267,9 +266,9 @@ function PlasmicHomepage__RenderFunc(props: {
                   }
                   loading={"eager"}
                   src={{
-                    src: "/plasmic/nutreats/images/img0797Png.png",
-                    fullWidth: 6711,
-                    fullHeight: 6658,
+                    src: "/plasmic/nutreats/images/img03211Png.png",
+                    fullWidth: 5410,
+                    fullHeight: 4359,
                     aspectRatio: undefined
                   }}
                 />
@@ -294,12 +293,27 @@ function PlasmicHomepage__RenderFunc(props: {
               >
                 {"NUTREATS"}
               </div>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__tKc1V)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"150px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/nutreats/images/asset144XPng.png",
+                  fullWidth: 13955,
+                  fullHeight: 11947,
+                  aspectRatio: undefined
+                }}
+              />
             </div>
           </div>
           <Reveal
-            data-plasmic-name={"reveal"}
-            data-plasmic-override={overrides.reveal}
-            className={classNames("__wab_instance", sty.reveal)}
+            className={classNames("__wab_instance", sty.reveal__t8DkW)}
             duration={0.8}
             reverse={false}
             triggerOnce={false}
@@ -311,36 +325,25 @@ function PlasmicHomepage__RenderFunc(props: {
             />
           </Reveal>
           <div className={classNames(projectcss.all, sty.freeBox__o8Z0S)}>
-            <ParallaxWrapper
-              className={classNames(
-                "__wab_instance",
-                sty.parallaxWrapper__vgvTw
-              )}
-              speed={5}
+            <Reveal
+              className={classNames("__wab_instance", sty.reveal___49Xkw)}
+              duration={500}
+              triggerOnce={true}
             >
               <Stack__
                 as={"div"}
                 hasGap={true}
                 className={classNames(projectcss.all, sty.freeBox__sT3Q4)}
               >
-                <PlasmicImg__
-                  alt={""}
-                  className={classNames(sty.img__yleU)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"150px"}
-                  loading={"lazy"}
-                  src={{
-                    src: "/plasmic/nutreats/images/asset144XPng.png",
-                    fullWidth: 13955,
-                    fullHeight: 11947,
-                    aspectRatio: undefined
-                  }}
-                />
-
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__hKGl
+                  )}
+                >
+                  {"En Nutreats, solo lo mejor para tu mascota"}
+                </div>
                 <div
                   className={classNames(
                     projectcss.all,
@@ -349,11 +352,11 @@ function PlasmicHomepage__RenderFunc(props: {
                   )}
                 >
                   {
-                    "En Nutreats garantizamos la mejor calidad en la materia prima, siendo carne fresca premium de consumo humano."
+                    "Garantizamos la m\u00e1xima calidad con treats elaborados con carne fresca premium de consumo humano. Salud, sabor y felicidad en cada bocado"
                   }
                 </div>
               </Stack__>
-            </ParallaxWrapper>
+            </Reveal>
             <Stack__
               as={"div"}
               hasGap={true}
@@ -525,7 +528,7 @@ function PlasmicHomepage__RenderFunc(props: {
               )}
             >
               {
-                "Carne premium deshidratada bajo temperaturas controladas y epacada en diferentes presentaciones"
+                "Nuestros Jerky\u2019s est\u00e1n hechos con carne fresca premium, deshidratada bajo temperaturas controladas para conservar todo su sabor y valor nutricional. Disponibles en diferentes presentaciones, perfectos para consentir a tu mascota"
               }
             </div>
           </div>
@@ -694,7 +697,7 @@ function PlasmicHomepage__RenderFunc(props: {
               )}
             >
               {
-                "Variedad de tama\u00f1os, dureza, texturas y grado de dificultad"
+                "Disponibles en distintos tama\u00f1os, texturas, grados de dureza y niveles de dificultad, nuestros snacks masticables ofrecen una experiencia adaptada a las necesidades y gustos de tu mascota"
               }
             </div>
           </div>
@@ -874,7 +877,7 @@ function PlasmicHomepage__RenderFunc(props: {
               )}
             >
               {
-                "Mix de nuestros productos para ofrecer mayor variedad y satisfacer todas las necesidades"
+                "\u00a1Una explosi\u00f3n de sabores y diversi\u00f3n! Es nuestra versi\u00f3n Mix de premios y masticables dise\u00f1ados para complacer los gustos y preferencias de cada gato y peludito"
               }
             </div>
           </div>
@@ -906,7 +909,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   )}
                 >
                   {
-                    "Mix de masticables seleccionados para promover la estimulaci\u00f3n mental"
+                    "El mix de masticables m\u00e1s sabroso, dise\u00f1ado para mantener a tu peludo entretenido y feliz."
                   }
                 </div>
               </Stack__>
@@ -947,18 +950,18 @@ function PlasmicHomepage__RenderFunc(props: {
                 >
                   {"Bites"}
                 </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__tp6FO
+                  )}
+                >
+                  {
+                    "Mix dise\u00f1ado para los m\u00e1s exigentes, trozos de carnes del tama\u00f1o perfecto para un bocado, ideal para gatos y perros de raza mini"
+                  }
+                </div>
               </Stack__>
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__tp6FO
-                )}
-              >
-                {
-                  "Mix de carnes en trocitos para gatos y perros de raza peque\u00f1a"
-                }
-              </div>
               <PlasmicImg__
                 alt={""}
                 className={classNames(sty.img__eiarm)}
@@ -1003,7 +1006,9 @@ function PlasmicHomepage__RenderFunc(props: {
                     sty.text___9Nk7J
                   )}
                 >
-                  {"Mix de carnes en tiras largas"}
+                  {
+                    "Mix de carnes y masticables, cortados en tiras largas que se adaptan al tama\u00f1o y las preferencias de la mascota"
+                  }
                 </div>
               </Stack__>
               <PlasmicImg__
@@ -1050,7 +1055,9 @@ function PlasmicHomepage__RenderFunc(props: {
                     sty.text__wjMeX
                   )}
                 >
-                  {"Mix de carnes en un empaque ideal para paseos"}
+                  {
+                    "Tu mix de jerkys favorito en una presentaci\u00f3n ideal para paseos o durante actividades diarias."
+                  }
                 </div>
               </Stack__>
               <PlasmicImg__
@@ -2207,7 +2214,6 @@ function PlasmicHomepage__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "reveal",
     "navbar",
     "puntosDeVenta",
     "h1",
@@ -2215,7 +2221,6 @@ const PlasmicDescendants = {
     "section",
     "mision"
   ],
-  reveal: ["reveal", "navbar"],
   navbar: ["navbar"],
   puntosDeVenta: ["puntosDeVenta", "h1"],
   h1: ["h1"],
@@ -2228,7 +2233,6 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  reveal: typeof Reveal;
   navbar: typeof Navbar;
   puntosDeVenta: "div";
   h1: "h1";
@@ -2322,7 +2326,6 @@ export const PlasmicHomepage = Object.assign(
   withUsePlasmicAuth(makeNodeComponent("root")),
   {
     // Helper components rendering sub-elements
-    reveal: makeNodeComponent("reveal"),
     navbar: makeNodeComponent("navbar"),
     puntosDeVenta: makeNodeComponent("puntosDeVenta"),
     h1: makeNodeComponent("h1"),

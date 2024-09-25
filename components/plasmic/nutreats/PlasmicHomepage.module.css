@@ -217,7 +217,20 @@
     min-width: 0;
   }
 }
-.reveal:global(.__wab_instance) {
+.img__tKc1V {
+  object-fit: cover;
+  max-width: 100%;
+  width: 150px;
+  position: relative;
+  left: auto;
+  top: auto;
+  z-index: 2;
+  bottom: auto;
+}
+.img__tKc1V > picture > img {
+  object-fit: cover;
+}
+.reveal__t8DkW:global(.__wab_instance) {
   max-width: 100%;
   object-fit: cover;
   justify-self: center;
@@ -258,10 +271,9 @@
     margin-bottom: 42px;
   }
 }
-.parallaxWrapper__vgvTw:global(.__wab_instance) {
+.reveal___49Xkw:global(.__wab_instance) {
   max-width: 100%;
-  z-index: 4;
-  margin-top: 0px;
+  object-fit: cover;
 }
 .freeBox__sT3Q4 {
   display: flex;
@@ -270,7 +282,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  margin-top: 117px;
+  margin-top: 50px;
   background: none;
   min-width: 0;
   padding: 0px 8px 8px;
@@ -298,23 +310,22 @@
     padding-top: 36px;
   }
 }
-.img__yleU {
-  object-fit: cover;
-  max-width: 100%;
-  width: 150px;
+.text__hKGl {
   position: relative;
-  left: auto;
-  top: auto;
-  z-index: 2;
-}
-.img__yleU > picture > img {
-  object-fit: cover;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: #6e6565;
+  font-size: 42px;
+  font-family: "futura";
+  font-weight: 600;
+  text-align: center;
 }
 .text__kbkpM {
   position: relative;
   padding-right: 0px;
   width: 60%;
-  font-size: 38px;
+  font-size: 24px;
   font-family: "Futura";
   color: #353a3c;
   text-align: center;
@@ -324,7 +335,7 @@
   height: auto;
   flex-shrink: 0;
   align-self: center;
-  font-weight: 600;
+  font-weight: 500;
 }
 @media (max-width: 992px) {
   .text__kbkpM {
@@ -720,7 +731,7 @@
 }
 .text__oeMxo {
   position: relative;
-  width: 60%;
+  width: 780px;
   height: auto;
   max-width: 100%;
   font-size: 24px;
@@ -1191,14 +1202,14 @@
 }
 .text__icYmq {
   position: relative;
-  width: 60%;
+  width: 690px;
   height: auto;
   max-width: 100%;
   font-size: 24px;
   color: #595454;
   text-align: left;
   font-family: "futura";
-  font-weight: 600;
+  font-weight: 500;
 }
 @media (max-width: 992px) {
   .text__icYmq {
@@ -1796,7 +1807,7 @@
 }
 .text__hcYzx {
   position: relative;
-  width: 600px;
+  width: 720px;
   height: auto;
   max-width: 100%;
   font-size: 24px;
@@ -1894,7 +1905,7 @@
   width: auto;
   height: auto;
   max-width: 100%;
-  padding: 8px;
+  padding: 0px;
 }
 .freeBox__cFosq > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -1930,7 +1941,7 @@
 }
 .text__waOny {
   position: relative;
-  width: 400px;
+  width: 100%;
   height: auto;
   max-width: 100%;
   font-size: 18px;
@@ -1938,6 +1949,7 @@
   text-align: left;
   font-family: "futura";
   font-weight: 500;
+  min-width: 0;
 }
 @media (max-width: 992px) {
   .text__waOny {
@@ -1999,7 +2011,7 @@
   width: auto;
   height: auto;
   max-width: 100%;
-  padding: 8px;
+  padding: 0px;
 }
 .freeBox__czwWg > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -2110,7 +2122,7 @@
   width: auto;
   height: auto;
   max-width: 100%;
-  padding: 8px;
+  padding: 0px;
 }
 .freeBox__lKzT6 > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -2226,7 +2238,7 @@
   width: auto;
   height: auto;
   max-width: 100%;
-  padding: 8px;
+  padding: 0px;
 }
 .freeBox__rFui4 > :global(.__wab_flex-container) {
   flex-direction: column;
