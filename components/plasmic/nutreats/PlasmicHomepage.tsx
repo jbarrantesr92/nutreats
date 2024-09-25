@@ -301,7 +301,11 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayMaxWidth={"100%"}
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
-                displayWidth={"150px"}
+                displayWidth={
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? "80px"
+                    : "150px"
+                }
                 loading={"lazy"}
                 src={{
                   src: "/plasmic/nutreats/images/asset144XPng.png",

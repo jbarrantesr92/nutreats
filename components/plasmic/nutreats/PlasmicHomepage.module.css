@@ -161,7 +161,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox___05Wng {
     width: 100%;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     left: auto;
     top: 15px;
@@ -229,6 +229,11 @@
 }
 .img__tKc1V > picture > img {
   object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .img__tKc1V {
+    width: 80px;
+  }
 }
 .reveal__t8DkW:global(.__wab_instance) {
   max-width: 100%;
